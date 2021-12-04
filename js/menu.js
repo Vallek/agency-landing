@@ -8,7 +8,7 @@ popupButton.addEventListener('click', handleMenu);
 
 // Функция, которая показывает и скрывает попап
 function handleMenu() {
-	popupMenu.classList.toggle('display-none');
+	popupMenu.classList.toggle('hide-popup');
 }
 
 // Выполняем функцию когда юзер кликает в любом месте
@@ -19,7 +19,7 @@ function hidePopup(el) {
 	let targetInside = popupWrapper.contains(el.target);
 	// Если нет, то прячем меню
 	if (!targetInside) {
-		popupMenu.classList.add('display-none');
+		popupMenu.classList.add('hide-popup');
 	}	
 	else {
 		return;
