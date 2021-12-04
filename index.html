@@ -6,25 +6,45 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&display=swap&subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script async src="js/menu.js"></script>
 </head>
 <!-- Этот макет сверстан по БЭМу. Подробности: https://ru.bem.info/methodology/quick-start/ -->
 <body class="page">
 	<div class="page__header page__header_grey">
 		<header class="header">
-			<ul class="menu header__menu">
-				<li class="menu__item">
-					<a class="menu__link" href="">Home</a>
-				</li>
-				<li class="menu__item">
-					<a class="menu__link" href="#portfolio">Portfolio</a>
-				</li>
-				<li class="menu__item">
-					<a class="menu__link" href="#about">About Us</a>
-				</li>
-				<li class="menu__item">
-					<a class="menu__link" href="#contacts">Contact</a>
-				</li>
-			</ul>
+			<nav class="header__navigation">
+				<ul class="menu header__menu">
+					<li class="menu__item">
+						<a class="menu__link" href="#">Home</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#portfolio">Portfolio</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#about">About Us</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="#contacts">Contact</a>
+					</li>
+				</ul>
+				<div class="popup-menu">
+					<button class="popup-menu__button"></button>
+					<ul class="popup-menu__list display-none">
+						<li class="popup-menu__item">
+							<a class="popup-menu__link" href="#">Home</a>
+						</li>
+						<li class="popup-menu__item">
+							<a class="popup-menu__link" href="#portfolio">Portfolio</a>
+						</li>
+						<li class="popup-menu__item">
+							<a class="popup-menu__link" href="#about">About Us</a>
+						</li>
+						<li class="popup-menu__item">
+							<a class="popup-menu__link" href="#contacts">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
 		</header>
 	</div>
 	<main class="page__content">
