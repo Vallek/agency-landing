@@ -187,6 +187,12 @@
 	justify-content: center;
 }
 
+@media screen and (min-width: 600px) {
+	.popup-menu {
+		display: none;
+	}
+}
+
 .popup-menu__list {
 	visibility: visible;
 	position: absolute;
