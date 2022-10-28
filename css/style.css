@@ -263,7 +263,7 @@
 	margin: 0;
 	font-size: 60px;
 	line-height: 1.2;
-	/* Чтобы высота строки оставалась пропорциональной разному размеру шрифта, можно указать ее без единиц измерения. Тогда она бужет зависеть от размера шрифта. */
+	/* Чтобы высота строки оставалась пропорциональной разному размеру шрифта, можно указать ее без единиц измерения. Тогда она будет зависеть от размера шрифта. */
 	font-weight: bold;
 	text-transform: uppercase;
 	margin-bottom: 18px;
@@ -916,7 +916,7 @@
 	.intro__heading {
 		font-size: 5vw;
 	}
-	.intro__image-link {
+	.intro__video {
 		width: 50%;
 	}
 	.intro__image {
@@ -1038,7 +1038,7 @@
 	.intro__content {
 		width: 100%;
 	}
-	.intro__image-link {
+	.intro__video {
 		width: 100%;
 	}
 	.intro__image {
