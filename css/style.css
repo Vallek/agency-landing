@@ -307,9 +307,10 @@
 	background-color: #ff2d2d;
 }
 
-.intro__image {
+.intro__video {
 	width: 551px;
 	height: 356px;
+	object-fit: cover;
 	box-shadow: 0 -10px 40px 0 rgb(124, 124, 124);
 	/* Свойство box-shadow позволяет создать тень бокса. Первые два значения - смещение по горизонтали и вертикали. Третье - размытие. Четвертое - распространение. Пятое цвет. */
 }
@@ -918,6 +919,7 @@
 	}
 	.intro__video {
 		width: 50%;
+		height: auto;
 	}
 	.intro__image {
 		width: 100%;
@@ -1040,6 +1042,7 @@
 	}
 	.intro__video {
 		width: 100%;
+		height: auto;
 	}
 	.intro__image {
 		width: 100%;
